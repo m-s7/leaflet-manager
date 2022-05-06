@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-manager",
+  "version": "1.0.0",
+  "description": "Helper library for managing leaflet markers, polygons, control and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m-s7/leaflet-manager.git"
+  },
+  "keywords": [
+    "leaflet",
+    "map",
+    "marker",
+    "polygon",
+    "manager",
+    "helper"
+  ],
+  "author": "Nowatel Sp. z o.o. <serwis@nowatel.com> (https://nowatel.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-s7/leaflet-manager/issues"
+  },
+  "homepage": "https://github.com/m-s7/leaflet-manager#readme"
+}
