@@ -1,0 +1,1 @@
+export { createMapManager, MapManagerActions } from './leaflet-manager'

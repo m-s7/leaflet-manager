@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Helper library for managing leaflet markers, polygons, control and more.",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,19 @@
     "manager",
     "helper"
   ],
-  "author": "Nowatel Sp. z o.o. <serwis@nowatel.com> (https://nowatel.com/)",
+  "author": "Nowatel Sp. z o.o. <biuro@nowatel.com> (https://nowatel.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/m-s7/leaflet-manager/issues"
   },
-  "homepage": "https://github.com/m-s7/leaflet-manager#readme"
+  "homepage": "https://github.com/m-s7/leaflet-manager#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.7.9",
+    "@types/lodash": "^4.14.182",
+    "leaflet": "^1.8.0",
+    "lodash": "^4.17.21"
+  }
 }
